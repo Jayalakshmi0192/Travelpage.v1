@@ -1,0 +1,117 @@
+
+header{
+    background-image: url('https://www.onacheaptrip.com/wp-content/uploads/Parvati-river-in-Manikaran-near-Kasol.jpg');
+    background-size: cover;
+    height:800px;
+    width: 110%;
+
+    
+}
+
+body{
+    margin:0px;
+    width: 100%;
+}
+
+
+a :hover{
+color: rgb(72, 72, 71);
+
+}
+.navbar-brand:hover{
+color: white ! important;
+}
+.nav-link:hover{
+    color: burlywood !important;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width:50px;
+    height:50px;
+    background-color:#524f4f ;
+    border-radius: 50%;
+    top:calc(50% - 25px);
+}
+.carousel-control-prev{
+    left:5%
+}
+.carousel-control-next{
+    right:5%
+}
+a{
+    text-decoration: none;
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+#grow{
+    transition: all .2s ease-in-out;
+}
+#grow:hover{
+    transform: scale(1.1);
+}
+
+
+.heading h1{
+    font-family: 'Satisfy', cursive;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+}
+.heading h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+.activities h1{
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 900;
+}
+.places h1{
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 900;
+}
+.container h1{
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 900;
+}
+.tagline{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+  float: left;
+  margin-right: 26%;
+    
+    
+}
+
+.hotels h1 {
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 900;
+}
+ .gallery h1{
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 900;
+ }
+
+ .statement h5{
+    font-size: 15px;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ 
